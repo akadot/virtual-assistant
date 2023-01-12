@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "virtual-assistant"
+version = "0.1.0"
+description = ""
+authors = ["dot_ <muriloholiveira@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "virtual_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+speechrecognition = "^3.9.0"
+pyttsx3 = "^2.90"
+pyaudio = "^0.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
